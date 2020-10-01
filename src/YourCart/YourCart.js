@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CartItems from '../CartItems/CartItems';
-import Total from '../Total/Total';
+import CartItems from './CartItems';
+import Total from './Total';
 import '../App.css';
 
 

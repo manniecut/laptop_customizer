@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FeatureChoice from '../FeatureChoice/FeatureChoice';
+import FeatureChoice from './FeatureChoice';
 import '../App.css';
 
 export default class MainForm extends Component {
