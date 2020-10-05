@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from './Header/Header';
-import MainForm from './MainForm/MainForm';
-import YourCart from './YourCart/YourCart';
+import Header from './Component/Header/Header';
+import MainForm from './Component/MainForm/MainForm';
+import YourCart from './Component/YourCart/YourCart';
 import './App.css';
 
 class App extends Component {

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import FeatureChoice from './FeatureChoice';
-import '../App.css';
+import FEATURES from './FEATURES';
 
 export default class MainForm extends Component {
 
   render() {
-    return Object.keys(this.props.features).map((feature, idx) => {
+    return Object.keys(FEATURES).map((feature, idx) => {
       const featureHash = feature + '-' + idx;
-      const options = this.props.features[feature].map(item => {
+      const options = FEATURES[feature].map(item => {
         return (
           <FeatureChoice
             item={item}
